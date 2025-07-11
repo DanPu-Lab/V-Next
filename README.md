@@ -5,13 +5,13 @@ VarNet has been tested on ubuntu 22.04 LTS.
 ### 输入文件要求
 
 #### Training
-需提供以下输入文件：
+The following inputs are required:
 - tumor alignment file.bam
 - normal alignment file.bam
 - training region file.bed
 - truth somatic variant file.vcf
 #### Calling 
-需提供以下输入文件：
+The following inputs are required:
 - tumor alignment file.bam
 - normal alignment file.bam
 - call region file.bed
