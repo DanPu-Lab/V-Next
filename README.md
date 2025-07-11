@@ -22,7 +22,7 @@ python preprocess.py \
 	--scan_alignments_binary ../bin/scan_alignments
 
 python train.py \
-	--candidates_tsv work_train/dataset/*/candidates*.tsv \
+	--candidates_tsv work_train/dataset/* /candidates*.tsv \
 	--out work_train \
 	--num_threads 8 \
 	--batch_size 64 
