@@ -3,7 +3,10 @@ Somatic variant detection framework
 # Requirements
 VarNet has been tested on ubuntu 22.04 LTS.
 Python=3.10
-
+cmake=3.22.1
+g++=11.4.0
+conda install zlib=1.2.13 numpy=1.24.3 scipy=1.10.1 imageio=2.36.0
+conda install pysam=0.22.1 pybedtools=0.10.0 samtools=1.13 tabix=1.11 bedtools=2.30.0 biopython=1.78 -c bioconda
 #### Training
 The following inputs are required:
 - tumor alignment file.bam
@@ -60,3 +63,7 @@ python postprocess.py \
 	--output_vcf work_call/V_Next.vcf \
 	--work work_call 
 The final V_Next prediction is work_call/V_Next.vcf
+
+V_Next will use GPUs in train/call steps if they are avilable.
+CUDA_VISIBLE_DEVICES=0,1,2,3... python train.py
+CUDA_VISIBLE_DEVICES=0,1,2,3... python call.py 
