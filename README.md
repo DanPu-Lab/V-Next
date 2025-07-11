@@ -16,8 +16,7 @@ conda install pysam=0.22.1 pybedtools=0.10.0 samtools=1.13 tabix=1.11 bedtools=2
 ```
 
 ### Testing the Preprocessing, Calling, and Postprocessing Steps
-
-1. Navigate to the test directory and run the test script:
+1. Run the test script:
    ```bash
    cd test
    ./run_test.sh
@@ -27,6 +26,7 @@ conda install pysam=0.22.1 pybedtools=0.10.0 samtools=1.13 tabix=1.11 bedtools=2
    - For the stand-alone mode, the output file is:  
      `test/example/work_standalone/NeuSomatic_standalone.vcf`  
      This file should match `test/NeuSomatic_standalone.vcf`.
+
 
 ### Training Workflow
 #### Input Files Preparation
@@ -66,6 +66,7 @@ python train.py \
     --num_threads 8 \
     --batch_size 64
 ```
+
 
 ### Variant Calling Workflow
 #### Input Files Preparation
@@ -107,6 +108,7 @@ python postprocess.py \
 
 #### Final Output
 The final variant calling results are saved in: `work_call/V_Next.vcf`
+
 
 ### GPU Acceleration Instructions
 V-Next will automatically detect available GPUs during training and prediction. To specify GPUs, use:
