@@ -1,4 +1,4 @@
-#https://seqan.readthedocs.io/en/seqan-v2.0.2/BuildManual/IntegrationWithYourOwnBuildSystem.html
+
 if (NOT EXISTS ${CMAKE_CURRENT_LIST_DIR}/seqan)
 
 message("build new seqan ")
@@ -6,6 +6,7 @@ ExternalProject_Add(
   seqan
   PREFIX ${CMAKE_CURRENT_LIST_DIR}/seqan
   GIT_REPOSITORY https://github.com/seqan/seqan.git
+  GIT_TAG seqan-v2.0.2
   CONFIGURE_COMMAND "" 
   BUILD_COMMAND "" 
   INSTALL_COMMAND ""
