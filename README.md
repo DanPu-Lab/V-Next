@@ -1,7 +1,7 @@
 ### V-Next Somatic Variant Detection Framework
 
 #### Environment Requirements
-VarNet has been tested on Ubuntu 22.04 LTS. Ensure the following dependencies are installed:
+V-Next has been tested on Ubuntu 22.04 LTS. Ensure the following dependencies are installed:
 ```bash
 # Base Environment
 Python=3.10
