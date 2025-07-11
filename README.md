@@ -16,16 +16,16 @@ conda install pysam=0.22.1 pybedtools=0.10.0 samtools=1.13 tabix=1.11 bedtools=2
 ```
 
 ### Testing the Preprocessing, Calling, and Postprocessing Steps
-1. Run the test script:
-   ```bash
-   cd test
-   ./run_test.sh
-   ```
+Run the test script:
+```bash
+cd test
+./run_test.sh
+```
 
-2. Expected Outputs:
-   - For the stand-alone mode, the output file is:  
-     `test/example/work_standalone/NeuSomatic_standalone.vcf`  
-     This file should match `test/NeuSomatic_standalone.vcf`.
+Expected Outputs:
+For the stand-alone mode, the output file is:  
+`test/example/work_standalone/NeuSomatic_standalone.vcf`  
+This file should match `test/NeuSomatic_standalone.vcf`.
 
 
 ### Training Workflow
