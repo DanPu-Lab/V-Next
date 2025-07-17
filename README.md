@@ -122,4 +122,4 @@ CUDA_VISIBLE_DEVICES=0,1 python call.py [...]
 ### Model
 ```bash
 # Pretrained
-https://drive.google.com/drive/folders/1pXZvOrJZ2J-QBlx7zCj2L_GhEkUJPVgb?usp=drive_link
+[https://drive.google.com/drive/folders/1pXZvOrJZ2J-QBlx7zCj2L_GhEkUJPVgb?usp=drive_link](https://drive.google.com/drive/folders/1pXZvOrJZ2J-QBlx7zCj2L_GhEkUJPVgb?usp=drive_link)
