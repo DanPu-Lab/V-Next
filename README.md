@@ -124,6 +124,6 @@ CUDA_VISIBLE_DEVICES=0,1 python call.py [...]
 # Pre-trained Model
 https://drive.google.com/drive/folders/1pXZvOrJZ2J-QBlx7zCj2L_GhEkUJPVgb?usp=drive_link
 # There are 3 pre-trained models:
-- DREAM
-- WES
-- WGS
+- DREAM.pth
+- WES.pth
+- WGS.pth
