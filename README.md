@@ -1,5 +1,5 @@
 ### V-Next Somatic Variant Detection Framework
-
+Somatic variant detection is pivotal in cancer research and clinical diagnostics. We present V-Next, a deep learning-based somatic variant caller built upon the ResNeXt architecture and enhanced with a squeeze-and-excitation (SE) module. By integrating grouped convolutions and SE attention mechanisms within the residual blocks, V-Next effectively improves feature representation and detection accuracy.
 #### Environment Requirements
 V-Next has been tested on Ubuntu 22.04 LTS. Ensure the following dependencies are installed:
 ```bash
