@@ -22,12 +22,6 @@ cd test
 ./run_test.sh
 ```
 
-Expected Outputs:
-For the stand-alone mode, the output file is:  
-`test/example/work_standalone/NeuSomatic_standalone.vcf`  
-This file should match `test/NeuSomatic_standalone.vcf`.
-
-
 ### Training Workflow
 #### Input Files Preparation
 - Tumor alignment file (BAM format)
