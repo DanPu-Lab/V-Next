@@ -15,6 +15,10 @@ conda install zlib=1.2.13 numpy=1.24.3 scipy=1.10.1 imageio=2.36.0
 conda install pysam=0.22.1 pybedtools=0.10.0 samtools=1.13 tabix=1.11 bedtools=2.30.0 biopython=1.78 -c bioconda
 ```
 
+### run the build script
+./Build.sh
+
+
 ### Testing the Preprocessing, Calling, and Postprocessing Steps
 Run the test script:
 ```bash
